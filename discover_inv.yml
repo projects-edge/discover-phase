@@ -8,3 +8,4 @@
     - "10.0.55.0/24"
   data:
     template: "540_Access.tmpl"
+    entities: "540_entities.go"
