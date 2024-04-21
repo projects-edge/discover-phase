@@ -1,1 +1,1 @@
-call ipce.join_router('{{ .Hostname }}', '{{ .Interfaces }}');
+call ipce.join_router('{{ .Hostname }}', '{{ range .Interfaces }} {{ . }} {{ end }}');
